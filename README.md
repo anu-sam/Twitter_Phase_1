@@ -13,8 +13,8 @@
 	- install latest version of maven.
 
 4. Download and copy latest chrome and firfox drivers to below locations:
-	- drivers\chromedriver\chromedriver.exe
-	- drivers\geckodriver\geckodriver.exe
+	- drivers\chromedriver\chromedriver.exe (https://chromedriver.chromium.org/downloads)
+	- drivers\geckodriver\geckodriver.exe (https://github.com/mozilla/geckodriver/releases)
 
 5. If you intended to run the suite in firefox browser, go to “config.properties” file under “com/twitter/qa/config” directory and change the “browser” property to “firefox".
 
