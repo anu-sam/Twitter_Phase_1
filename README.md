@@ -22,6 +22,6 @@
 
 7. Type "mvn install".
 
-8. If you're running the automation suite from and IDE (eg: Eclipse), make sure you have installed "TestNG"  prior to the execution. Then right-click on "testng.xml" under "src/main/resources" directory, select "Run As" -> "TestNG Suite"
+8. If you're running the automation suite from an IDE (eg: Eclipse), make sure you have installed "TestNG"  prior to the execution. Then right-click on "testng.xml" under "src/main/resources" directory, select "Run As" -> "TestNG Suite"
 
 9. After the test execution, go inside “test-output” folder in the project directory, open the “index.html” file from a web browser.
