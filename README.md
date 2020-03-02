@@ -16,10 +16,12 @@
 	- drivers\chromedriver\chromedriver.exe
 	- drivers\geckodriver\geckodriver.exe
 
-5. If you intended to run the suite in firefox browser, go to“config.properties”file under“com.twitter.qa.config”directory and change the“browser”property to “firefox".
+5. If you intended to run the suite in firefox browser, go to “config.properties” file under “com/twitter/qa/config” directory and change the “browser” property to “firefox".
 
 6. Using window command prompt, go to directory where you downloaded the local copy of the project.
 
 7. Type "mvn install".
 
-8. After the test execution, go inside “test-output” folder in the project directory, open the “index.html” file from a web browser.
+8. If you're running the automation suite from and IDE (eg: Eclipse), make sure you have installed "TestNG"  prior to the execution. Then right-click on "testng.xml" under "src/main/resources" directory, select "Run As" -> "TestNG Suite"
+
+9. After the test execution, go inside “test-output” folder in the project directory, open the “index.html” file from a web browser.
